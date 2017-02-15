@@ -30,9 +30,18 @@
           <label for="time">Requested Time:</label>
           <input id="time" class="form-control" type="text"></input>
         </div>
+        <button type="submit" class="btn btn-danger">Request</button>
       </form>
 
-      <div class="confirmation">
+      <div id="hiddenConfirm">
+        <p>Thank you - your appointment request has been received. Your appointment request details are the following:
+        </p>
+        <ul>
+          <li class="userName"></li>
+          <li class="apptDescrip"></li>
+          <li class="date"></li>
+          <li class="time"></li>
+        </ul>
       </div>
     </div>
   </body>
